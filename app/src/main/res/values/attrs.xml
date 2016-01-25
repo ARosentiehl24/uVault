@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PatternLockView">
+        <attr name="lock_color" format="color" />
+        <attr name="wrong_color" format="color" />
+        <attr name="correct_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="PinLockView">
+        <attr name="keyboard_button_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="PinLockButtonView">
+        <attr name="keyboard_button_text" format="string" />
+        <attr name="keyboard_button_image" format="integer" />
+    </declare-styleable>
+</resources>

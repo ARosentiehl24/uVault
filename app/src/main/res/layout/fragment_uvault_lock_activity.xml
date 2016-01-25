@@ -1,0 +1,140 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:keepScreenOn="true"
+    android:orientation="vertical"
+    tools:context="com.arrg.app.uvault.views.UVaultLockActivityFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tv_app_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:shadowColor="@color/blue_grey_900"
+            android:shadowDx="2.5"
+            android:shadowDy="2.5"
+            android:shadowRadius="5"
+            android:text="@string/app_name"
+            android:textColor="@color/blue_grey_950"
+            android:textSize="75sp" />
+    </RelativeLayout>
+
+    <ViewFlipper
+        android:id="@+id/vf_unlock_methods"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5">
+
+        <LinearLayout
+            android:id="@+id/ll_pin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cv_et_pin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardUseCompatPadding="true">
+
+                <EditText
+                    android:id="@+id/et_pin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="5dp"
+                    android:clickable="false"
+                    android:cursorVisible="false"
+                    android:focusableInTouchMode="false"
+                    android:gravity="center"
+                    android:hapticFeedbackEnabled="true"
+                    android:inputType="numberPassword"
+                    android:labelFor="@id/et_pin"
+                    android:maxLength="4" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cv_pin"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardUseCompatPadding="true">
+
+                <com.arrg.app.uvault.views.uviews.PinLockView
+                    android:id="@+id/pin"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/margin_pin_lock_view"
+                    android:gravity="center"
+                    app:keyboard_button_color="@color/blue_grey_950" />
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cv_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardUseCompatPadding="true">
+
+            <EditText
+                android:id="@+id/et_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:cursorVisible="false"
+                android:gravity="center"
+                android:hapticFeedbackEnabled="true"
+                android:inputType="textPassword"
+                android:labelFor="@id/et_password" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cv_pattern"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardUseCompatPadding="true">
+
+            <com.arrg.app.uvault.views.uviews.PatternLockView
+                android:id="@+id/pattern"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                app:correct_color="@color/teal_500"
+                app:lock_color="@color/blue_grey_950"
+                app:wrong_color="@color/youtube" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cv_fingerprint"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardUseCompatPadding="true">
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fab_fingerprint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_fingerprint"
+                app:fabSize="normal"
+                app:rippleColor="@color/ripple_light" />
+        </android.support.v7.widget.CardView>
+    </ViewFlipper>
+</LinearLayout>
+

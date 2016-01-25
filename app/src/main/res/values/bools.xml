@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="user_fingerprint">true</bool>
+    <bool name="is_pattern_visible">true</bool>
+    <bool name="enable_swipe">true</bool>
+</resources>

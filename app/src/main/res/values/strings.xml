@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">uVault</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="add_photo">Click to\nAdd photo</string>
+    <string name="current_version">Current version: v%s</string>
+
+    <string name="more_action_settings">Developer &amp; more</string>
+    <string name="contact_developer_settings">Contact me</string>
+    <string name="report_bug_settings">Send bug report</string>
+    <string name="check_update_settings">Check for updates</string>
+    <string name="lic_open_source">Lic. open source</string>
+    <string name="exit">Exit</string>
+    <string name="gallery">Gallery</string>
+    <string name="vault">Vault</string>
+    <string name="send_bug_report_settings">Send bug report</string>
+    <string name="title_activity_vault">VaultActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="file_from">Folder: %s</string>
+
+    <string name="crash_toast_text">There has been an unexpected failure :(</string>
+    <string name="crash_dialog_title">uBlock has crashed</string>
+    <string name="crash_dialog_text">An error caused the application to crash, please send an email with the description of the error in the inputs below to fix it as quickly as possible.</string>
+    <string name="crash_dialog_comment_prompt">Enter your comments regarding the problem:</string>
+    <string name="crash_dialog_ok_toast">Thank you!</string>
+    <string name="crash_user_email_label">Enter your email:</string>
+
+    <string name="number">*#*#123#*#*</string>
+    <string name="custom_font">Roboto</string>
+    <string name="default_code">0000</string>
+    <string name="default_pattern">123</string>
+    <string name="button1_large_text">1</string>
+    <string name="button2_large_text">2</string>
+    <string name="button2_small_text">ABC</string>
+    <string name="button3_large_text">3</string>
+    <string name="button3_small_text">DEF</string>
+    <string name="button4_large_text">4</string>
+    <string name="button4_small_text">GHI</string>
+    <string name="button5_large_text">5</string>
+    <string name="button5_small_text">JKL</string>
+    <string name="button6_large_text">6</string>
+    <string name="button6_small_text">MNO</string>
+    <string name="button7_large_text">7</string>
+    <string name="button7_small_text">PQRS</string>
+    <string name="button8_large_text">8</string>
+    <string name="button8_small_text">TUV</string>
+    <string name="button9_large_text">9</string>
+    <string name="button9_small_text">WXYZ</string>
+    <string name="button11_large_text">0</string>
+    <string name="fingerprint_service_is_not_supported">Fingerprint Service is not supported in the device</string>
+    <string name="alternative_storage_path">/sdcard/</string>
+    <string name="file_transition_name">file</string>
+    <string name="title_activity_picture_profile">Picture Profile</string>
+    <string name="picture_source">Where you want to get the picture?</string>
+    <string name="from_gallery">Gallery</string>
+    <string name="from_camera">Camera</string>
+    <string name="u_apps">uApps</string>
+    <string name="media">Media</string>
+    <string name="wallpaper">Wallpaper</string>
+    <string name="user_picture_name">User.png</string>
+    <string name="saving_background">Saving picture profile, please wait…</string>
+    <string name="background">background</string>
+</resources>

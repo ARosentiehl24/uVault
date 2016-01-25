@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_gallery"
+            android:checked="true"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/gallery" />
+        <item
+            android:id="@+id/nav_vault"
+            android:icon="@drawable/ic_inbox"
+            android:title="@string/vault" />
+    </group>
+
+    <item android:title="@string/more_action_settings">
+        <menu>
+            <item
+                android:id="@+id/nav_update"
+                android:icon="@drawable/ic_system_update"
+                android:title="@string/check_update_settings" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/send_bug_report_settings" />
+            <item
+                android:id="@+id/nav_lic_open_source"
+                android:icon="@drawable/ic_code"
+                android:title="@string/lic_open_source" />
+            <item
+                android:id="@+id/nav_developer"
+                android:icon="@drawable/ic_account_circle"
+                android:title="@string/contact_developer_settings" />
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/ic_exit_to_app"
+                android:title="@string/exit" />
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="user_picture">user_picture</string>
+    <string name="designated_finger">designated_finger</string>
+    <string name="last_unlock_method">last_unlock_method</string>
+    <string name="user_fingerprint">user_fingerprint</string>
+    <string name="is_pattern_visible">is_pattern_visible</string>
+    <string name="user_password">user_password</string>
+    <string name="user_pin">user_pin</string>
+    <string name="user_pattern">user_pattern</string>
+    <string name="enable_swipe">enable_swipe</string>
+    <string name="selected_path">selected_path</string>
+    <string name="was_open_from_ublock_screen">was_open_from_ublock_screen</string>
+</resources>
